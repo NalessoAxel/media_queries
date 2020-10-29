@@ -1,6 +1,7 @@
 @media only screen and  (min-width: 768px) {
     body {
         background-color: blue;
+        font-size: 36px;
     }
     #small {
         display: none;
@@ -10,11 +11,14 @@
     #medium {
       display: none;
   }
+
 }
+
 
   @media only screen and (max-width: 768px) and (min-width: 300px) {
       body {
           background-color: green;
+          font-size: 24px;
       }
       #small {
           display: none;
@@ -22,10 +26,13 @@
       #large {
         display: none;
     }
-  }
+    
+}
+  
   @media only screen and (min-width: 0px) and (max-width: 300px) {
     body {
         background-color: red;
+        font-size: 16px;
 
     }
     #medium {
@@ -34,4 +41,5 @@
     #large {
         display: none;
     }
+    
 }

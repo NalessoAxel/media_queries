@@ -2,15 +2,18 @@
     body {
         background-color: blue;
         font-size: 36px;
+        display: flex;
+        flex-direction: row;
+        
     }
-    #small {
+/*     #small {
         display: none;
         
 
     }
     #medium {
       display: none;
-  }
+  } */
 
 }
 
@@ -19,12 +22,21 @@
       body {
           background-color: green;
           font-size: 24px;
+          display: flex;
+          flex-wrap: wrap;
+             
       }
+      
       #small {
-          display: none;
+        width: 70%;
       }
+      #medium {
+       width: 30%;
+       
+    }
       #large {
-        display: none;
+        
+        
     }
     
 }
@@ -33,13 +45,14 @@
     body {
         background-color: red;
         font-size: 16px;
+       
 
     }
-    #medium {
+    /* #medium {
         display: none;
     }
     #large {
         display: none;
     }
-    
+     */
 }
